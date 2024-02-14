@@ -4,7 +4,7 @@
 int value = 100;
 Console.WriteLine(value);
 
-double d  = 5.55;
+double d = 5.55;
 char c = '!';
 bool b = true;
 Console.WriteLine(d);
