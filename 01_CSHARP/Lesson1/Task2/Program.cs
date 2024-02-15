@@ -26,10 +26,10 @@
 // double qoutient2 = i1 / d1;
 // Console.WriteLine(qoutient2);
 
-int a = 5;
-int b = 2;
-int c = 3;
-int d = 6;
+int a = 2;
+int b = 6;
+int c = 1;
+int d = 3;
 
 int solution = a * b / (c + d);
 Console.WriteLine(solution);
