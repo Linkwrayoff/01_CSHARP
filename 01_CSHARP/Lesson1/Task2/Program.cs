@@ -33,3 +33,4 @@ int d = 6;
 
 int solution = a * b / (c + d);
 Console.WriteLine(solution);
+
