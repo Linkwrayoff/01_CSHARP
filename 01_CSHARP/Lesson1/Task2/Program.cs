@@ -1,27 +1,35 @@
-﻿int i1 = 5;
-int i2 = 6;
-int sum = i1 + i2;
+﻿// int i1 = 5;
+// int i2 = 6;
+// int sum = i1 + i2;
 
-Console.WriteLine(sum);
+// Console.WriteLine(sum);
 
-long l1 = 6;
-long sum2 = l1 + i1;
+// long l1 = 6;
+// long sum2 = l1 + i1;
 
-Console.WriteLine(sum2);
+// Console.WriteLine(sum2);
 
-double d1 = 5.5;
-double sum3 = d1 + i1;
+// double d1 = 5.5;
+// double sum3 = d1 + i1;
 
-int product1 = i1 * i2;
-long product2 = l1 * i1;
-double product3 = d1 * i1;
-Console.WriteLine(product1);
-Console.WriteLine(product2);
-Console.WriteLine(product3);
+// int product1 = i1 * i2;
+// long product2 = l1 * i1;
+// double product3 = d1 * i1;
+// Console.WriteLine(product1);
+// Console.WriteLine(product2);
+// Console.WriteLine(product3);
 
-int qoutient = i1 / i2;
-Console.WriteLine(qoutient);
+// int qoutient = i1 / i2;
+// Console.WriteLine(qoutient);
 
-d1 = 6;
-double qoutient2 = i1 / d1;
-Console.WriteLine(qoutient2);
+// d1 = 6;
+// double qoutient2 = i1 / d1;
+// Console.WriteLine(qoutient2);
+
+int a = 5;
+int b = 2;
+int c = 3;
+int d = 6;
+
+int solution = a * b / (c + d);
+Console.WriteLine(solution);
