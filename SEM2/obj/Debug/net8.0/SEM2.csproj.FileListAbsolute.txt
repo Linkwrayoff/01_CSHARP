@@ -1,0 +1,14 @@
+C:\Users\Artyom\OneDrive\Desktop\SEM2\bin\Debug\net8.0\SEM2.exe
+C:\Users\Artyom\OneDrive\Desktop\SEM2\bin\Debug\net8.0\SEM2.deps.json
+C:\Users\Artyom\OneDrive\Desktop\SEM2\bin\Debug\net8.0\SEM2.runtimeconfig.json
+C:\Users\Artyom\OneDrive\Desktop\SEM2\bin\Debug\net8.0\SEM2.dll
+C:\Users\Artyom\OneDrive\Desktop\SEM2\bin\Debug\net8.0\SEM2.pdb
+C:\Users\Artyom\OneDrive\Desktop\SEM2\obj\Debug\net8.0\SEM2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artyom\OneDrive\Desktop\SEM2\obj\Debug\net8.0\SEM2.AssemblyInfoInputs.cache
+C:\Users\Artyom\OneDrive\Desktop\SEM2\obj\Debug\net8.0\SEM2.AssemblyInfo.cs
+C:\Users\Artyom\OneDrive\Desktop\SEM2\obj\Debug\net8.0\SEM2.csproj.CoreCompileInputs.cache
+C:\Users\Artyom\OneDrive\Desktop\SEM2\obj\Debug\net8.0\SEM2.dll
+C:\Users\Artyom\OneDrive\Desktop\SEM2\obj\Debug\net8.0\refint\SEM2.dll
+C:\Users\Artyom\OneDrive\Desktop\SEM2\obj\Debug\net8.0\SEM2.pdb
+C:\Users\Artyom\OneDrive\Desktop\SEM2\obj\Debug\net8.0\SEM2.genruntimeconfig.cache
+C:\Users\Artyom\OneDrive\Desktop\SEM2\obj\Debug\net8.0\ref\SEM2.dll
