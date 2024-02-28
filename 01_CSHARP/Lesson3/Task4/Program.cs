@@ -19,9 +19,10 @@ void PrintArray(int[] arr)
 	}
 }
 
-int sum = 0;
 int GetSumOfElements(int[] arr){
 	int i = 0;
+	int sum = 0;
+	
 	while(i < n){
 		sum = sum + arr[i];
 		i++;
@@ -29,9 +30,10 @@ int GetSumOfElements(int[] arr){
 	return sum;
 }
 
-int product = 1;
 int GetProductOfElements(int[] arr){
 	int i = 1;
+	int product = 1;
+
 	while(i < n){
 		product = product * arr[i];
 		i++;
