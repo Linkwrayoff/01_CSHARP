@@ -1,0 +1,64 @@
+﻿int[,] Create2dArray(int min, int max, int rows, int cols)
+{
+	int[,] array = new int[rows, cols];
+	for (int i = 0; i < rows; i++)
+	{
+		for (int j = 0; j < cols; j++)
+		{
+			array[i, j] = new Random().Next(min, max + 1);
+		}
+	}
+	return array;
+}
+
+void Show2dArray(int[,] array)
+{
+	for (int i = 0; i < array.GetLength(0); i++)
+	{
+		for (int j = 0; j < array.GetLength(1); j++)
+		{
+			Console.Write(array[i, j] + " ");
+		}
+		Console.WriteLine();
+	}
+}
+
+void ShowArray(int[] array)
+{
+	for (int i = 0; i < array.Length; i++)
+	{
+		Console.Write($"{array[i]} ");
+	}
+}
+
+int [] GetMid(int[,] array)
+{
+	int[] newArr = new int [array.GetLength(0)];
+
+	for (int i = 0; i < array.GetLength(0); i++)
+	{
+		int sum = 0;
+		for (int j = 0; j < array.GetLength(1); j++)
+		{
+			sum += array[i,j];
+		}
+		newArr[i] = sum / array.GetLength(1);
+	}
+	return newArr;
+}
+
+Console.Clear();
+
+Console.WriteLine("Imput min value");
+int min = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Imput max value");
+int max = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Imput rows count");
+int rows = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Imput cols count");
+int cols = Convert.ToInt32(Console.ReadLine());
+
+int[,] array = Create2dArray(min, max, rows, cols);
+Show2dArray(array);
+int [] result = GetMid(array);
+ShowArray(result);

@@ -20,7 +20,6 @@
 int[] GetNumbers(string n){
 	string symbols = "";
 	foreach(char e in n){
-		
 		if(int.TryParse(char.ToString(e), out int nums) == true){
 			symbols += e;
 		}
