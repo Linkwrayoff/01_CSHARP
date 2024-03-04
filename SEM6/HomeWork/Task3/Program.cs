@@ -1,15 +1,11 @@
 ﻿// Задача 3: Задайте произвольную строку. Выясните,
 // является ли она палиндромом.
 
-string str = "asfasf";
-void IsPalindrom(string str){
-	for(int i = 0; i< (str.Length / 2); i++){
-		if(str[i] != str[i -1]){
-			Console.Write("Не палиндром");
-		}else{
-			Console.Write("Палиндром");
-		}
+string str = "шалаш";
+string str2 = "Да";
+for(int i = 0; i< str.Length / 2; i++){
+	if(str[i] != str[str.Length - 1 - i]){
+		str2 = "Нет";
 	}
 }
-IsPalindrom("asfasf");
-Console.Write(IsPalindrom("asfasf"));
+Console.Write(str2);
