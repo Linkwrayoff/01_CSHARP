@@ -20,12 +20,12 @@
 // 		Пример
 // N=5 => 1 2 3 4 5
 
-void GetIntegersOfNum (int N){
-	if(N == 0){
-		return;
-	}
-	GetIntegersOfNum(N - 1);
-	Console.Write(N +" ");
-}
+// void GetIntegersOfNum (int N){
+// 	if(N == 0){
+// 		return;
+// 	}
+// 	GetIntegersOfNum(N - 1);
+// 	Console.Write(N +" ");
+// }
 
-GetIntegersOfNum(5);
+// GetIntegersOfNum(5);
