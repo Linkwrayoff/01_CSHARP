@@ -1,16 +1,16 @@
 ﻿// Сумма чисел через рекурсию
 
-// int SumOfDigits(int num){
-// 	if(num == 0){
-// 		return 0;
-// 	}
-// 	int sum = num % 10 + SumOfDigits(num/10);
-// 	return sum;
-// }
+int SumOfDigits(int num){
+	if(num == 0){
+		return 0;
+	}
+	int sum = num % 10 + SumOfDigits(num/10);
+	return sum;
+}
 
-// int num = 1007;
-// int result = SumOfDigits(num);
-// Console.Write(result);
+int num = 1007;
+int result = SumOfDigits(num);
+Console.Write(result);
 
 /* --------------------------------------------------- */
 
@@ -20,12 +20,12 @@
 // 		Пример
 // N=5 => 1 2 3 4 5
 
-// void GetIntegersOfNum (int N){
-// 	if(N == 0){
-// 		return;
-// 	}
-// 	GetIntegersOfNum(N - 1);
-// 	Console.Write(N +" ");
-// }
+void GetIntegersOfNum (int N){
+	if(N == 0){
+		return;
+	}
+	GetIntegersOfNum(N - 1);
+	Console.Write(N +" ");
+}
 
-// GetIntegersOfNum(5);
+GetIntegersOfNum(5);
